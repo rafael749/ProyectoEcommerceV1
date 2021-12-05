@@ -1,4 +1,20 @@
-iniciar commit:
+Crear repositorio local en GIT
+
+git config --global user.name "ecommerceINtroduccion"
+git config --global user.name
+git config --global user.email "rafaelmiranda749@gmail.com"
+git config --global user.email
+git init 
+git add . 
+git commit -m "Se Instala la primera version Introduccion"
+git log --oneline
+
+git remote add origin https://github.com/rafael749/ProyectoEcommerceV1.git
+git branch -M main
+git push -u origin main
+
+----------------------------
+(Guardar cambios una vez inicializado el repositorio) iniciar commit:
 
 1 - git add .
 2 - git commit -m "mensaje"
